@@ -1,0 +1,161 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    background-color: #a4a4a4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(192, 192, 192, 0.675);
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 70%;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(121, 121, 121);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.shop-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.product {
+    width: 23%; 
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(53, 53, 53, 0.942);
+    padding: 10px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product h3 {
+    margin: 10px 0;
+    color: rgb(4, 4, 4);
+}
+
+.product p {
+    color: rgb(166, 166, 166);
+    font-size: 16px;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    background-color: #000000;
+    border-bottom: 1px solid #000000;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgb(110, 52, 52);
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.nav-link:hover {
+    background-color: #a61a1a;
+    border-radius: 5px;
+}
+
+.like-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 24px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: rgb(159, 159, 159);
+}
+
+.like-btn.active {
+    color: red; 
+}
+
+.add-to-cart {
+    display: block; 
+    margin: 10px auto; 
+    background-color: #121212;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px; 
+}
+
+.add-to-cart:hover {
+    background-color: #bfbfbf;
+}
+
+.product:hover .add-to-cart {
+    visibility: visible;
+}
+
+.product {
+    position: relative;
+}
+
+.product {
+    position: relative;
+    z-index: 1; 
+}
+
+ul li ul {
+    position: absolute;
+    width: 200px;
+    display: none;
+    z-index: 2; 
+}
+
+.product img {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.product img {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 5px;
+}
+
+.product img {
+    width: 100%;
+    height: 500px; 
+    object-fit: cover; 
+    border-radius: 5px;
+}
